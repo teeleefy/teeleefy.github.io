@@ -1,9 +1,79 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../cheat_sheet/resources/css/index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tammy's CSS Cheat Sheet</title>
+</head>
 <body>
-  <h1>teeleefy</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <header>
+        <h1>CSS Table Reference</h1>
+        <h2>Display and Positioning </h2>
+    </header>
+    <main>
+        <dl>
+            <dt>Display</dt>
+            <dd>The CSS display property determines the type of render block for an element. The most common values for this property are block, inline, and inline-block.</dd>
+            <dt>Positioning</dt>
+            <dd>Positioning in CSS provides designers and developers options for positioning HTML elements on a web page. The CSS position can be set to static, relative, absolute or fixed.</dd>
+        </dl>
+        <table>
+            <thead>
+                <th colspan="2">Display Terms</th>
+            </thead>
+            <tbody>
+                    <tr>
+                        <th>Inline</th>
+                        <td>Take up as little space as possible, flow horizontally, and cannot have their width or height manually adjusted.</td>
+                    </tr>
+                    <tr>
+                        <th>Block</th>
+                        <td>Take up the full width of their container with line breaks before and after, and can have their height and width manually adjusted.</td>
+                    </tr>
+                    <tr>
+                        <th>Inline-Block</th>
+                        <td>Can appear next to each other, and can have their width and height manually adjusted.</td>
+                    </tr>
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <th colspan="2">Positioning Terms</th>
+            </thead>
+            <tbody>
+                    <tr>
+                        <th>Static</th>
+                        <td>HTML elements are positioned static by default. Static positioned elements are not affected by the top, bottom, left, and right properties. An element with position: static is not positioned in any special way. It is always positioned according to the normal flow of the page.</td>
+                    </tr>
+                    <tr>
+                        <th>Relative</th>
+                        <td>The value relative of the CSS position property enables an element to be positioned relative to where it would have originally been on a web page. The offset properties can be used to determine the actual position of the element relative to its original position. Without the offset properties, this declaration will have no effect on its positioning, it will act as the default value static of the position property.</td>
+                    </tr>
+                    <tr>
+                        <th>Absolute</th>
+                        <td>The value absolute for the CSS property position enables an element to ignore sibling elements and instead be positioned relative to its closest parent element that is positioned with relative or absolute. The absolute value removes an element entirely from the document flow. By using the positioning attributes top, left, bottom and right, an element can be positioned anywhere as expected.
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Fixed</th>
+                        <td>When the CSS position has a value of fixed, it is set/pinned to a specific spot on a page. The fixed element stays the same regardless of scrolling. The navigation bar is a great example of an element that is often set to position: fixed, enabling the user to scroll through the web page and still access the navigation bar.</td>
+                    </tr>
+            </tbody>
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+    </main>
 </body>
- 
 </html>

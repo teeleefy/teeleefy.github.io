@@ -1,0 +1,44 @@
+html {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: mediumseagreen;
+}
+
+header {
+    text-align: center;
+}
+
+dl{
+    border: 5px solid mediumseagreen;
+}
+
+dd{
+    padding: 3px;
+    margin: 10px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-style: hidden;
+    border: 2px solid black;
+    margin: 20px;
+    background-color: mediumseagreen;
+}
+
+dt {
+    font-weight: bold;
+    margin: 15px;
+    background-color: rgb(175, 141, 234);
+}
+
+table td {
+    padding: 0.5rem;
+    border: 5px solid black;
+}
+table th {
+    padding: 0.5rem;
+    border: 5px solid black;
+}
